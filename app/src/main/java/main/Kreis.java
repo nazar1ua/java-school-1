@@ -38,6 +38,6 @@ public class Kreis {
     }
     
     void setRadius(double newRadius) {
-        radius = newRadius;
+        radius = newRadius > 0 ? newRadius : 1;
     }
 }
